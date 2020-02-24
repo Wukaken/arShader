@@ -1,0 +1,2 @@
+export ARNOLD_PATH=/Users/wujiajian/Documents/workspace/arShader/Arnold_5.2.1.0 
+c++ myToons.cpp myOutline.cpp myRamp.cpp myRemap.cpp loader.cpp -o myToon.dylib -Wall -O2 -shared -fPIC -I$ARNOLD_PATH/include -L$ARNOLD_PATH/bin -lai
